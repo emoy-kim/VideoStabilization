@@ -21,7 +21,7 @@ int displayStabilizedFrame(const Mat& frame, const Mat& stabilized, const bool& 
 		const int row_diff_size = (frame.rows - stabilized.rows) / 2;
 		frame.copyTo( result(Rect(0, 0, frame.cols, frame.rows)) );
 		stabilized.copyTo( result(Rect(frame.cols + col_diff_size, row_diff_size, stabilized.cols, stabilized.rows)) );
-		imshow( "Input | Heat-Haze Removed", result );
+		imshow( "Input | Stabilized", result );
 	}
 	else {
 		imshow( "Input", frame );
