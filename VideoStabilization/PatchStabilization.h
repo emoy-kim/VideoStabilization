@@ -1,3 +1,13 @@
+/*
+ * Author: Emoy Kim
+ * E-mail: emoy.kim_AT_gmail.com
+ * 
+ * This code is based on 'PatchStabilizer' class among open source in [1], refactored and modified.
+ * 
+ * [1] https://github.com/LMescheder/Video-Stabilizer/tree/master/libstabilizer
+ * 
+ */
+
 #pragma once
 
 #include <OpenCVLinker.h>
