@@ -13,9 +13,11 @@
   * Visual Studio 2017
   * Surface Book 2
   
+  
 ## Library Dependencies
   * OpenCV
-
+  
+  
 ## Keyboard Commands
   * **space bar**: pause/resume
   * **f key**: move next frame when paused
