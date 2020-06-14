@@ -4,5 +4,6 @@ target_link_libraries(
         opencv_imgproc
         opencv_imgcodecs
         opencv_highgui
-        opencv_calib3d
+        opencv_videoio
+        opencv_video
 )
